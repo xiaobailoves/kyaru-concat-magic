@@ -18,6 +18,10 @@ yarn build
 
 打包在 `public` 下
 
+## 演示地址
+
+[演示地址](https://fz6m.github.io/kyaru-concat-magic/)
+
 ## 原项目
 
 [ayamomiji / kyaru-concat](https://github.com/ayamomiji/kyaru-concat)
