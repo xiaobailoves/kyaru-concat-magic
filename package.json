@@ -1,0 +1,24 @@
+{
+  "name": "kyaru-concat-magic",
+  "version": "0.11.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public",
+    "deploy": "now --prod"
+  },
+  "devDependencies": {
+    "@rollup/plugin-url": "^4.0.2",
+    "rollup": "^1.32.1",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-livereload": "^1.3.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.2.2",
+    "rollup-plugin-terser": "^5.3.0",
+    "svelte": "^3.22.3"
+  },
+  "dependencies": {
+    "fabric": "^3.6.3",
+    "sirv-cli": "^0.4.4"
+  }
+}
